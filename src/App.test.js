@@ -6,5 +6,5 @@ test('App reder test', () => {
   const heading = screen.getByRole("heading")
   
   expect(heading).toBeInTheDocument();
-  expect(heading.textContent).toBe("Hi! AWS CLI");
+  expect(heading.textContent).toBe("Hi! CICD");
 });
